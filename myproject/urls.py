@@ -24,7 +24,9 @@ urlpatterns = [
     path('', views.welcome),
     path('load_form/', views.load_form),
     path('show/', views.show),
+    path('edit/<int:id>/', views.edit),
     path('add/', views.add),
+
 
 
 ]

@@ -28,7 +28,7 @@ def show(request):
 
 def edit(request, id):
     student = Student.objects.get(id=id)
-    return render(request, 'poll/edit.html', {'student': student})
+    return render(request, 'edit.html', {'student': student})
 
 
 # Create your views here.
