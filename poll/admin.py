@@ -1,7 +1,5 @@
 from django.contrib import admin
-
+from poll.models import Student
 # Register your models here.
-from .models import Question
 
-admin.site.register(Question)
-
+admin.site.register(Student)
