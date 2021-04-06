@@ -13,3 +13,4 @@ config.json
 /media/*
 /static/*
 /django
+venv
